@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="fonts/icomoon/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/lightgallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+  <div class="site-wrap">
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar py-3" role="banner">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6 col-xl-2" data-aos="fade-down">
+            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">CCIT Photography</a></h1>
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="has-children">
+                  <a href="single.html">Gallery</a>
+                  <ul class="dropdown">
+                    <li><a href="single.html">Nature</a></li>
+                    <li><a href="single people.html">Portrait</a></li>
+                    <li><a href="single food.html">Food</a></li>
+                    <li><a href="single sport.html">Sports</a></li>
+                </li>
+              </ul>
+              </li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">Validation</a></li>
+              <li><a href="json.html">Data Storage</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                <li>
+                  <a href="htttps://www.facebook.com" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="htttps://www.instagram.com" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+                class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+    </header>
+
+    <h2>Validation Your Contact</h2>
+
+    <form ng-app="myApp" ng-controller="validateCtrl" name="myForm" novalidate>
+
+      <p>Username:<br>
+        <input type="text" name="user" ng-model="user" required>
+        <span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+          <span ng-show="myForm.user.$error.required">Username is required.</span>
+        </span>
+      </p>
+
+      <p>Email:<br>
+        <input type="email" name="email" ng-model="email" required>
+        <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+          <span ng-show="myForm.email.$error.required">Email is required.</span>
+          <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+        </span>
+      </p>
+
+      <p>Password:<br>
+        <input type="password" name="password" ng-model="password" required>
+        <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+          <span ng-show="myForm.password.$error.required">password is required.</span>
+          <span ng-show="myForm.password.$error.email">password email address.</span>
+        </span>
+      </p>
+    </form>
+    <div class="col-lg-3 ml-auto">
+      <div class="mb-3 bg-white">
+        <p class="mb-0 font-weight-bold">Address</p>
+        <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+
+        <p class="mb-0 font-weight-bold">Phone</p>
+        <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+
+        <p class="mb-0 font-weight-bold">Email Address</p>
+        <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+
+  <div class="footer py-4">
+    <div class="container-fluid text-center">
+      <p>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script>document.write(new Date().getFullYear());</script> All rights reserved made with <i class="icon-heart-o"
+          aria-hidden="true"></i> by <a href="index.html">CCIT Photography</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script>
+    var app = angular.module('myApp', []);
+    app.controller('validateCtrl', function ($scope) {
+      $scope.user = 'Exampel';
+      $scope.email = 'exampleoe@gmail.com';
+    });
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/picturefill.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#lightgallery').lightGallery();
+    });
+  </script>
+
+</body>
+
+</html>

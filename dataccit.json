@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "nama": "Baseball",
+        "kategori": "Sport",
+        "images": "15494.jpg"
+    },
+    {
+        "id": "2",
+        "nama": "American Football",
+        "kategori": "Sport",
+        "images": "img_6.jpg"
+    },
+    {
+        "id": "3",
+        "nama": "Lake",
+        "kategori": "Nature",
+        "images": "Nature1.jpg"
+    },
+    {
+        "id": "4",
+        "nama": "Mountain",
+        "kategori": "Nature",
+        "images": "img104.jpg"
+    },
+    {
+        "id": "5",
+        "nama": "Woman",
+        "kategori": "Portrait",
+        "images": "hero_bg_1.jpg"
+    },
+    {
+        "id": "6",
+        "nama": "Woman",
+        "kategori": "Portrait",
+        "images": "Hero_bg_2.jpg"
+    },
+    {
+        "id": "7",
+        "nama": "Human",
+        "kategori": "Portrait",
+        "images": "hero_bg_3.jpg"
+    },
+    {
+        "id": "8",
+        "nama": "Panorama",
+        "kategori": "Portrait",
+        "images": "img101.png"
+    },
+    {
+        "id": "9",
+        "nama": "Woman",
+        "kategori": "Portrait",
+        "images": "img_7.jpg"
+    },
+    {
+        "id": "10",
+        "nama": "Flower",
+        "kategori": "Nature",
+        "images": "img10.jpg"
+    }
+]
