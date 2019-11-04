@@ -19,9 +19,9 @@
     },
     {
         "id": "4",
-        "nama": "Mountain",
-        "kategori": "Nature",
-        "images": "img104.jpg"
+        "nama": "Juice",
+        "kategori": "Food",
+        "images": "juice_small.jpg"
     },
     {
         "id": "5",
@@ -44,19 +44,19 @@
     {
         "id": "8",
         "nama": "Panorama",
-        "kategori": "Portrait",
+        "kategori": "Nature",
         "images": "img101.png"
     },
     {
         "id": "9",
-        "nama": "Woman",
-        "kategori": "Portrait",
-        "images": "img_7.jpg"
+        "nama": "Moon",
+        "kategori": "Nature",
+        "images": "IMG_20181221_112018_556.jpg"
     },
     {
         "id": "10",
         "nama": "Flower",
         "kategori": "Nature",
-        "images": "img10.jpg"
+        "images": "img9.jpg"
     }
 ]
